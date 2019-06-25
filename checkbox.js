@@ -15,7 +15,7 @@ $(function () {
     $('#btnSubmit').click(function () {
         var value = [];
         $('.chcktbl:checked').each(function (res) {
-            value.push($(this).val())
+            value.push($(this).val());
         })
         console.log(value);
         alert(value)
