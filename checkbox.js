@@ -22,7 +22,7 @@ $(function () {
     });
 });
 function disableCheckOut() {
-    if ($('.chcktbl:checked').length == 0) {
+    if ($('.chcktbl:checked').length === 0) {
         $("#btnSubmit").attr("disabled", true);
     } else {
         $("#btnSubmit").attr("disabled", false);
